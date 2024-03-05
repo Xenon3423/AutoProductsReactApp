@@ -1,0 +1,132 @@
+.h1 {
+  margin: 0;
+  width: 586px;
+  height: 172px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.button1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 4px solid var(--red2);
+  box-sizing: border-box;
+}
+.b,
+.button {
+  position: relative;
+  z-index: 1;
+}
+.b {
+  flex: 1;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-geometria);
+  color: var(--color-white);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg);
+  background-color: transparent;
+  width: 216px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.frameLeft,
+.logoContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameLeft {
+  flex-direction: column;
+  gap: 52px 0;
+}
+.logoContainer {
+  align-self: stretch;
+  flex-direction: row;
+}
+.iMGContainerChild,
+.iMGContainerInner,
+.iMGContainerItem,
+.rectangleDiv {
+  height: 4px;
+  flex: 1;
+  position: relative;
+  background-color: var(--red2);
+  min-width: 103px;
+  max-width: 112px;
+  z-index: 1;
+}
+.iMGContainerInner,
+.iMGContainerItem,
+.rectangleDiv {
+  background-color: var(--color-white);
+}
+.groupContent,
+.iMGContainer {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.iMGContainer {
+  width: 484px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 12px;
+}
+.groupContent {
+  width: 806px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 127px 0;
+}
+.headerContainer {
+  width: 1318px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-geometria);
+}
+@media screen and (max-width: 900px) {
+  .h1 {
+    font-size: var(--font-size-19xl);
+  }
+  .frameLeft {
+    gap: 52px 0;
+  }
+  .groupContent {
+    gap: 127px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: var(--font-size-10xl);
+  }
+  .groupContent {
+    gap: 127px 0;
+  }
+}

@@ -1,0 +1,456 @@
+.footerChild {
+  height: 342px;
+  width: 1640px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.img602011Icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: screen;
+  z-index: 1;
+}
+.vectorGroupLogo,
+.vectorGroupLogo1,
+.vectorGroupLogo2 {
+  position: absolute;
+  bottom: 47.2px;
+  left: calc(50% - 14.5px);
+  width: 26.4px;
+  height: 26.8px;
+}
+.vectorGroupLogo1,
+.vectorGroupLogo2 {
+  left: calc(50% + 11.9px);
+}
+.vectorGroupLogo2 {
+  left: calc(50% + 37.7px);
+  z-index: 1;
+}
+.groupIcon,
+.vectorIcon {
+  position: absolute;
+  top: 36px;
+  left: 69.5px;
+  width: 98.5px;
+  height: 26.8px;
+}
+.vectorIcon {
+  top: 0;
+  left: 55.2px;
+  width: 7.1px;
+  height: 62.8px;
+}
+.frameSeparatorIcon,
+.vectorIcon1 {
+  position: absolute;
+  bottom: 11.2px;
+  left: calc(50% - 84px);
+  width: 55.2px;
+  height: 62.8px;
+}
+.vectorIcon1 {
+  bottom: 0;
+  width: 168px;
+  height: 5.2px;
+}
+.logo {
+  width: 168px;
+  height: 74px;
+  position: relative;
+  z-index: 2;
+}
+.p,
+.proAuto {
+  margin: 0;
+}
+.proAutoContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  min-height: 42px;
+  z-index: 2;
+}
+.footerInner,
+.logoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoParent {
+  align-self: stretch;
+  gap: 48px 0;
+}
+.footerInner {
+  width: 264px;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-gray-500);
+}
+.div {
+  height: 24px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.div1,
+.div2 {
+  width: 120px;
+  display: inline-block;
+  z-index: 2;
+}
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+  position: relative;
+  font-weight: 500;
+}
+.div3 {
+  width: 168px;
+  display: inline-block;
+  z-index: 2;
+}
+.div4,
+.div5,
+.div6 {
+  z-index: 3;
+}
+.div5,
+.div6 {
+  align-self: stretch;
+  z-index: 2;
+}
+.frameCompany,
+.frameLicensingPartners {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameLicensingPartners {
+  align-self: stretch;
+  gap: 16px 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-500);
+}
+.frameCompany {
+  flex: 1;
+  gap: 20px 0;
+}
+.div7 {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.div10,
+.div11,
+.div7,
+.div8,
+.div9 {
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.div10,
+.div11,
+.div9 {
+  align-self: stretch;
+}
+.div10,
+.div11 {
+  z-index: 3;
+}
+.div11 {
+  z-index: 2;
+}
+.frameReceptionOfAccumulator {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-500);
+}
+.frameCatalogAccumulatorsAut {
+  width: 106px;
+  flex-direction: column;
+  gap: 20px 0;
+  margin-left: -4px;
+}
+.frameCatalogAccumulatorsAut,
+.frameCompanyInfo,
+.frameHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameHeader {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameCompanyInfo {
+  width: 310px;
+  flex-direction: column;
+  padding: var(--padding-10xs) var(--padding-17xl) 0 0;
+  box-sizing: border-box;
+}
+.div12,
+.div13 {
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.div12 {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.div13 {
+  width: 106px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-500);
+  display: inline-block;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.div14 {
+  width: 114px;
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: var(--color-gray-500);
+  display: inline-block;
+  z-index: 2;
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px 0;
+}
+.div15,
+.div16,
+.div17,
+.div18,
+.div19 {
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.div16,
+.div17,
+.div18,
+.div19 {
+  align-self: stretch;
+}
+.info,
+.news {
+  flex-direction: column;
+}
+.news {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-500);
+}
+.info {
+  flex: 1;
+  gap: 20px 0;
+}
+.info,
+.text,
+.textWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  width: 264px;
+  flex-direction: row;
+  gap: 0 22px;
+}
+.textWrapper {
+  width: 334px;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.proautoyandexruIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  z-index: 2;
+}
+.notapplicableforthesenodesasth1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.notapplicableforthesenodesasth,
+.subtract {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.notapplicableforthesenodesasth {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.subtract {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 8px;
+}
+.subtractIcon {
+  width: 20px;
+  height: 16px;
+  position: relative;
+  z-index: 2;
+}
+.subtractWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.proauto59yandexru {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frame,
+.ordercall {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.frame {
+  flex-direction: column;
+  gap: 12px 0;
+}
+.button1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 4px solid var(--red2);
+  box-sizing: border-box;
+}
+.b,
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.b {
+  width: 136px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-geometria);
+  color: var(--color-white);
+  text-align: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs);
+  background-color: transparent;
+  flex: 1;
+  flex-direction: row;
+  z-index: 2;
+}
+.proautoyandexrulogo,
+.vector {
+  display: flex;
+  justify-content: flex-start;
+}
+.proautoyandexrulogo {
+  width: 188px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.vector {
+  width: 220px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px 0;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-32xl) var(--padding-xl) var(--padding-49xl);
+  box-sizing: border-box;
+  position: relative;
+  row-gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-geometria);
+}
+@media screen and (max-width: 1325px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logoParent {
+    gap: 48px 0;
+  }
+}

@@ -1,0 +1,298 @@
+.child {
+  height: 272px;
+  width: 1640px;
+  display: none;
+  min-height: 272px;
+  max-width: 100%;
+}
+.child,
+.div,
+.item {
+  position: relative;
+}
+.item {
+  height: 240px;
+  width: 282px;
+  background-color: var(--red2);
+  display: none;
+}
+.div {
+  align-self: stretch;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  min-height: 36px;
+  z-index: 2;
+}
+.frameChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.icoIcon {
+  position: absolute;
+  top: 56px;
+  left: 76px;
+  width: 130px;
+  height: 79px;
+  object-fit: cover;
+  z-index: 2;
+}
+.vectorParent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frameText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-53xl) var(--padding-9xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 183px;
+  min-height: 272px;
+}
+.logoFrameChild {
+  width: 84px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.div1,
+.logoFrame {
+  align-items: center;
+}
+.div1 {
+  width: 226px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.logoFrame {
+  flex: 1;
+  flex-direction: column;
+  gap: 31px 0;
+}
+.frameLogo,
+.groupContainer,
+.logoFrame {
+  display: flex;
+  justify-content: flex-start;
+}
+.groupContainer {
+  height: 190px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xl);
+  box-sizing: border-box;
+  min-width: 226px;
+}
+.frameLogo {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 28px;
+  min-width: 348px;
+  max-width: 100%;
+}
+.inner {
+  height: 240px;
+  width: 282px;
+  position: relative;
+  background-color: var(--red2);
+  display: none;
+}
+.frameItem {
+  width: 76px;
+  flex: 1;
+  max-height: 100%;
+}
+.div2,
+.frameItem,
+.unionIcon {
+  position: relative;
+  z-index: 1;
+}
+.div2 {
+  width: 226px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unionIcon {
+  width: 51px;
+  height: 20px;
+}
+.frameFooter {
+  align-items: center;
+  gap: 24px 0;
+}
+.frameFooter,
+.frameLogoInner,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  align-items: center;
+  gap: 32px 0;
+}
+.frameLogoInner {
+  height: 217px;
+  align-items: flex-start;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+  min-width: 226px;
+}
+.rectangleDiv {
+  width: 282px;
+  height: 240px;
+  position: relative;
+  background-color: var(--red2);
+  display: none;
+  z-index: 0;
+}
+.frameInner {
+  height: 87.3px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameDiv {
+  width: 112px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.unionIcon1 {
+  width: 0;
+  height: 0;
+  position: relative;
+  display: none;
+  z-index: 2;
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.div4 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.unionIcon2 {
+  width: 51px;
+  height: 20px;
+  position: absolute;
+  margin: 0 !important;
+  right: 115px;
+  bottom: 28px;
+}
+.div3,
+.frameLogo1,
+.section {
+  display: flex;
+  justify-content: flex-start;
+}
+.div3 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-30xl) var(--padding-9xl) var(--padding-53xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 28px 0;
+  min-width: 183px;
+  z-index: 1;
+}
+.frameLogo1,
+.section {
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameLogo1 {
+  flex: 1;
+  align-items: center;
+  gap: 0 28px;
+  min-width: 348px;
+}
+.section {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 var(--padding-237xl);
+  box-sizing: border-box;
+  gap: 0 56px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-geometria);
+}
+@media screen and (max-width: 1325px) {
+  .frameLogo,
+  .frameLogo1 {
+    min-width: 100%;
+  }
+  .section {
+    gap: 0 56px;
+    padding-left: var(--padding-109xl);
+    padding-right: var(--padding-109xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .groupContainer {
+    flex: 1;
+  }
+  .frameLogo {
+    flex-wrap: wrap;
+  }
+  .frameLogoInner {
+    flex: 1;
+  }
+  .frameLogo1 {
+    flex-wrap: wrap;
+  }
+  .section {
+    padding-left: var(--padding-45xl);
+    padding-right: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

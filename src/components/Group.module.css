@@ -1,0 +1,59 @@
+.groupChild {
+  width: 360px;
+  height: 138px;
+  position: relative;
+  background-color: var(--black2);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.b,
+.div {
+  position: relative;
+  z-index: 1;
+}
+.div {
+  align-self: stretch;
+  font-weight: 500;
+}
+.b {
+  width: 320px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  color: var(--color-white);
+}
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+  gap: 12px 0;
+}
+.unionIcon {
+  width: 51px;
+  height: 20px;
+  position: absolute;
+  margin: 0 !important;
+  right: 20px;
+  bottom: 16px;
+  z-index: 1;
+}
+.group {
+  align-self: stretch;
+  height: 138px;
+  background-color: var(--black2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--red2);
+  font-family: var(--font-geometria);
+}

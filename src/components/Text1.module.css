@@ -1,0 +1,74 @@
+.button1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 4px solid var(--red2);
+  box-sizing: border-box;
+}
+.b,
+.button {
+  position: relative;
+}
+.b {
+  flex: 1;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-geometria);
+  color: var(--red2);
+  text-align: center;
+  z-index: 1;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl);
+  background-color: transparent;
+  width: 236px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.child,
+.item {
+  width: 52px;
+  height: 52px;
+  position: relative;
+  object-fit: contain;
+}
+.buttonParent,
+.div,
+.text {
+  display: flex;
+  align-items: flex-start;
+}
+.div {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px 0;
+}
+.buttonParent,
+.text {
+  flex-direction: row;
+  max-width: 100%;
+}
+.buttonParent {
+  width: 896px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.text {
+  align-self: stretch;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 450px) {
+  .buttonParent {
+    flex-wrap: wrap;
+  }
+}
